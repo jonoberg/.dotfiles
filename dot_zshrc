@@ -1,3 +1,5 @@
+export EDITOR="zed --wait"
+
 # If not in tmux, start tmux.
 # if [[ -z ${TMUX+X}${ZSH_SCRIPT+X}${ZSH_EXECUTION_STRING+X} ]]; then
 #   exec tmux
@@ -35,7 +37,7 @@ unfunction zcompile-many
 ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 
 # Load plugins.
-source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source ~/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 source ~/.p10k.zsh
