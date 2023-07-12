@@ -1,8 +1,6 @@
 # Enable Zed as primary editor
 export EDITOR='zed --wait'
 
-alias ls='ls -al --color=auto'
-
 # Enable Powerlevel10k Instant Prompt feature
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
@@ -12,3 +10,5 @@ fi
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme
+
+alias ls='ls -al --color=auto'
