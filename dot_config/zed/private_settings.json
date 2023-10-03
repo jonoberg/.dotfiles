@@ -13,7 +13,7 @@
   "buffer_font_family": "MesloLGS NF", // "Zed Mono" || "MesloLGS NF"
   "terminal": {
     "blinking": "on",
-    "font_size": 15,
+    "font_size": 16,
     "font_family": "MesloLGS NF"
   }
 }
