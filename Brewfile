@@ -11,7 +11,6 @@ MacOS Utilities
 cask "dropbox"
 cask "rectangle"
 cask "raycast"
-cask "backblaze"
 # Testing if I can replace Divvy with Rectangle
 # mas "Divvy", id: 413857545
 
