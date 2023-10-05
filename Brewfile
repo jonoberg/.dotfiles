@@ -34,6 +34,7 @@ mas "iMovie", id: 408981434
 mas "GarageBand", id: 682658836
 cask "spotify"
 cask "vlc"
+cask "obsidian"
 
 # Gaming
 cask "steam"
