@@ -57,11 +57,14 @@ brew "powerlevel10k"
 brew "tmux"
 
 # Developer Tools
-cask "zed"
-cask "visual-studio-code"
 brew "docker"
 brew "chezmoi"
 brew "1password-cli"
+
+# IDEs
+cask "zed"
+cask "visual-studio-code"
+mas "Xcode", id: 497799835
 
 # Source Code Management Setup
 brew "git"
