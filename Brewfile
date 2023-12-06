@@ -75,3 +75,6 @@ brew "openssh"
 Deployment Setup
 brew "flyctl"
 brew "vercel-cli"
+
+# Javascript Development
+brew "node"
